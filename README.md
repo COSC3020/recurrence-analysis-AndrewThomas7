@@ -125,7 +125,7 @@ $$
 
 We then see that $a=3,b=3,d=5$, which yields $\frac{a}{b^d}=\frac{3}{3^5}<1\implies T(n)\in \theta(n^5)$.
 
-Then because $ T(n)\in \theta(n^5)$
+Then because $T(n)\in \theta(n^5)$
 
 $\Longleftrightarrow T(n)\in O(n^5),T(n)\in \Omega(n^5)$.
 Thus $T(n)\in O(n^5)$ and forms a tight bound for our algorithm. This verifies the work above.
